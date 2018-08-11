@@ -1,0 +1,12 @@
+#git에 안올릴 내용 (보안상 등의 이유로..)
+
+*.pyc
+*~
+__pycache__
+myvenv
+venv
+django_venv
+django_env
+db.sqlite3
+/static
+.DS_Store
