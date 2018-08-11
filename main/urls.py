@@ -24,7 +24,7 @@ urlpatterns = [
     path('play/', play),
     path('play2/', play2),
     path('jangseoyeon/profile/', profile),
-    path('/', newsfeed),
+    path('', newsfeed),
     path('feed/<number>/', detail_feed),
     path('new/', new_feed),
     path('feed/<number>/edit/', edit_feed),
